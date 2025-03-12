@@ -1,0 +1,102 @@
+{
+    "app_name": "Task Manager",
+    "pages": [
+        {
+            "name": "Home",
+            "elements": [
+                {
+                    "type": "button",
+                    "label": "View Tasks",
+                    "action": "navigate_to_task_list"
+                }
+            ]
+        },
+        {
+            "name": "Task List",
+            "elements": [
+                {
+                    "type": "task",
+                    "title": "Sample Task",
+                    "status": "Pending",
+                    "priority": "Medium"
+                }
+            ]
+        },
+        {
+            "name": "Task Details",
+            "elements": [
+                {
+                    "type": "text",
+                    "value": "Task Title"
+                },
+                {
+                    "type": "text",
+                    "value": "Task Description"
+                },
+                {
+                    "type": "dropdown",
+                    "label": "Priority",
+                    "options": [
+                        "Low",
+                        "Medium",
+                        "High"
+                    ]
+                },
+                {
+                    "type": "button",
+                    "label": "Save",
+                    "action": "update_task"
+                }
+            ]
+        }
+    ],
+    
+        "tasks": [
+            {
+                "id": 1,
+                "title": "Submit Research Paper",
+                "description": "Finalize and submit the AI research paper",
+                "status": "Pending",
+                "priority": "High",
+                "priorityColor": "#FF3B30",
+                "dueDate": "2024-04-10"
+            },
+            {
+                "id": 2,
+                "title": "Gym Workout",
+                "description": "Complete a 1-hour strength training session",
+                "status": "Completed",
+                "priority": "Medium",
+                "priorityColor": "#FF9500",
+                "dueDate": "2024-04-05"
+            },
+            {
+                "id": 3,
+                "title": "Plan Family Trip",
+                "description": "Book flights and hotel for summer vacation",
+                "status": "Pending",
+                "priority": "Low",
+                "priorityColor": "#34C759",
+                "dueDate": "2024-04-20"
+            },
+            {
+                "id": 4,
+                "title": "Code Review",
+                "description": "Review pull requests for the mobile app project",
+                "status": "Pending",
+                "priority": "High",
+                "priorityColor": "#FF3B30",
+                "dueDate": "2024-04-12"
+            },
+            {
+                "id": 5,
+                "title": "Buy Birthday Gift",
+                "description": "Find a present for best friend’s birthday",
+                "status": "Completed",
+                "priority": "Medium",
+                "priorityColor": "#FF9500",
+                "dueDate": "2024-04-08"
+            }
+        ]
+    }
+    
