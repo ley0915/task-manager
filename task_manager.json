@@ -1,56 +1,5 @@
 {
     "app_name": "Task Manager",
-    "pages": [
-        {
-            "name": "Home",
-            "elements": [
-                {
-                    "type": "button",
-                    "label": "View Tasks",
-                    "action": "navigate_to_task_list"
-                }
-            ]
-        },
-        {
-            "name": "Task List",
-            "elements": [
-                {
-                    "type": "task",
-                    "title": "Sample Task",
-                    "status": "Pending",
-                    "priority": "Medium"
-                }
-            ]
-        },
-        {
-            "name": "Task Details",
-            "elements": [
-                {
-                    "type": "text",
-                    "value": "Task Title"
-                },
-                {
-                    "type": "text",
-                    "value": "Task Description"
-                },
-                {
-                    "type": "dropdown",
-                    "label": "Priority",
-                    "options": [
-                        "Low",
-                        "Medium",
-                        "High"
-                    ]
-                },
-                {
-                    "type": "button",
-                    "label": "Save",
-                    "action": "update_task"
-                }
-            ]
-        }
-    ],
-    
         "tasks": [
             {
                 "id": 1,
